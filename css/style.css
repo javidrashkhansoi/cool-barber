@@ -2466,7 +2466,7 @@ body.lock::before {
   }
 }
 
-@media (min-width: 1211px), (max-width: 480px) {
+@media (max-width: 480px), (min-width: 1211px) {
   .contacts-header__item {
     display: grid;
     grid-template-columns: auto 36px;

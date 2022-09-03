@@ -984,24 +984,28 @@ body.lock::before {
   color: #efe7e2;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
+  opacity: 1;
 }
 
 .form-block__input::-moz-placeholder {
   color: #efe7e2;
   -moz-transition: color 0.3s;
   transition: color 0.3s;
+  opacity: 1;
 }
 
 .form-block__input:-ms-input-placeholder {
   color: #efe7e2;
   -ms-transition: color 0.3s;
   transition: color 0.3s;
+  opacity: 1;
 }
 
 .form-block__input::-ms-input-placeholder {
   color: #efe7e2;
   -ms-transition: color 0.3s;
   transition: color 0.3s;
+  opacity: 1;
 }
 
 .form-block__input::placeholder {
@@ -1009,6 +1013,7 @@ body.lock::before {
   -webkit-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s;
+  opacity: 1;
 }
 
 .form-block__submit {
